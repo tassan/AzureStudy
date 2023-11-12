@@ -8,7 +8,7 @@ namespace AzStudy.FunctionApp.Properties;
 public static class AssayTopic
 {
     [Function("AssayTopic")]
-    public static void Run([ServiceBusTrigger("assays", "sub", Connection = "")] TopicMessage<AssayRequest> mySbMsg,
+    public static void Run([ServiceBusTrigger("assays", "sub", Connection = "SBConnectionString")] TopicMessage<AssayRequest> mySbMsg,
         FunctionContext context)
     {
         var logger = context.GetLogger("AssayTopic");
