@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzStudy.FunctionApp", "AzStudy.FunctionApp\AzStudy.FunctionApp.csproj", "{83C119A4-CBC3-4704-960E-61A171687752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzStudy.Domain", "Domain\AzStudy.Domain\AzStudy.Domain.csproj", "{16F91B07-63CB-4327-B50D-07029A7C5A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C119A4-CBC3-4704-960E-61A171687752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C119A4-CBC3-4704-960E-61A171687752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C119A4-CBC3-4704-960E-61A171687752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C119A4-CBC3-4704-960E-61A171687752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F91B07-63CB-4327-B50D-07029A7C5A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F91B07-63CB-4327-B50D-07029A7C5A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F91B07-63CB-4327-B50D-07029A7C5A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F91B07-63CB-4327-B50D-07029A7C5A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
